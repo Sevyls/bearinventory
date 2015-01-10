@@ -1,9 +1,13 @@
-== Bearinventory
+== BearInventory
 
-Book collection inventory app made by a bear
+A book-collection inventory app made by a bear
 
 === Requirements
 
 * Ruby 2.1.x or higher
 * Rails 4.2.x
 
+=== Used projects/libraries
+
+* HTML5 Boilerplate
+* Bootstrap
