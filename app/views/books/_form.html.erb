@@ -17,7 +17,7 @@
   </div>
   <div class="field">
 		<%= f.label :authors %><br>
-		<%= f.text_field :authors, class: 'author_chooser' %>
+		<%= collection_select(:book, :author_ids, Author.all, :id, :name, {}, { multiple: true }) %>
 	</div>
   <div class="field">
     <%= f.label :isbn %><br>
