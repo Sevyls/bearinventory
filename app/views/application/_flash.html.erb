@@ -1,3 +1,10 @@
-
-<% if notice %><p class="notice alert alert-info"><%= notice %></p><% end %>
-<% if alert %><p class="alert alert-danger"><%= alert %></p><% end %>
+<% if notice %>
+<div class="row">
+  <p class="notice alert alert-info"><%= notice %></p>
+</div>
+<% end %>
+<% if alert %>
+<div class="row">
+  <p class="alert alert-danger"><%= alert %></p>
+</div>
+<% end %>

@@ -1,0 +1,32 @@
+.navbar-default {
+  background-color: #4C396E;
+}
+
+.navbar-brand {
+  height: auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+  font-family: 'Lobster', cursive;
+  font-size: 3em;
+  color: #FFF!important;
+}
+
+.navbar-brand img {
+  display: inline!important;
+  height: 50%;
+  margin-right: 0.2em;
+
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.navbar-nav>li>a {
+  color: #FFF!important;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
+}

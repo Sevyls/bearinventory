@@ -14,24 +14,24 @@
  *= require_self
  */
 
- @import url(http://fonts.googleapis.com/css?family=Lobster);
 
-.navbar-brand {
-  height: auto;
-  padding-top: 0px;
-  padding-bottom: 0px;
-
-  font-family: 'Lobster', cursive;
-  font-size: 3em;
+body {
+ font-family: 'Raleway', sans-serif;
+ font-size: 0.9em;
 }
 
-.navbar-brand img {
-  display: inline!important;
-  height: 50%;
-  -moz-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  filter: FlipH;
-  -ms-filter: "FlipH";
+h2 {
+ font-size: 2em;
+}
+
+h3 {
+ font-size: 1.5em;
+}
+
+label {
+ font-size: 1.2em;
+}
+
+input[type='submit'], button {
+ font-size: 1.5em;
 }
