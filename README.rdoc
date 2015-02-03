@@ -9,8 +9,8 @@ Currently under initial development.
 * Ruby 2.2.x or higher
 * Rails 4.2.x
 
-=== Used projects/libraries
+=== Used projects/libraries/gems
 
 * HTML5 Boilerplate
 * Bootstrap
-
+* Devise
