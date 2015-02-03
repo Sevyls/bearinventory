@@ -12,6 +12,16 @@
   color: #FFF!important;
 }
 
+@media all and (max-width: 520px) { /* screen size until 1200px */
+  .navbar-brand {
+    font-size: 2em;
+  }
+
+  .navbar-brand img {
+    height: 2em!important;
+  }
+}
+
 .navbar-brand img {
   display: inline!important;
   height: 50%;
