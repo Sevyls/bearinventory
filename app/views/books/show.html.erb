@@ -1,27 +1,21 @@
-
-<h1><%= @book.title %></h1>
-<h2><%= @book.authors.map {|a| a.name }.join ', '
-  %></h2>
-
-<p>
-  <strong>ISBN:</strong>
-  <%= @book.isbn %>
-</p>
-
-<p>
-  <strong>Release date:</strong>
-  <%= @book.release_date %>
-</p>
-
-<p>
-  <strong>Pages:</strong>
-  <%= @book.pages %>
-</p>
-
-<p>
-  <strong>Format:</strong>
-  <%= @book.format %>
-</p>
-
-<%= link_to 'Edit', edit_book_path(@book) %> |
-<%= link_to 'Back', books_path %>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-8">
+      <h1><%= @book.title %></h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-8">
+      <h2><%= @book.authors.map {|a| a.name }.join ', ' %></h2>
+      <p><strong>ISBN:</strong> <%= @book.isbn %></p>
+      <p><strong>Release date:</strong> <%= @book.release_date %></p>
+      <p><strong>Pages:</strong> <%= @book.pages %></p>
+      <p><strong>Format:</strong> <%= @book.format %></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-8">
+      <p><%= button_to 'Edit', edit_book_path(@book), method: :get, class: 'btn btn-default' %></p>
+      <p><%= link_to 'Back', books_path %></p>
+    </div>
+</div>
