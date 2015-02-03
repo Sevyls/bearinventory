@@ -7,24 +7,21 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Bearinventory</title>
-				<link rel="apple-touch-icon-precomposed" href="bear-152-23595.png">
-				<link rel="icon" type="image/x-icon" href="favicon.ico">
-				<link rel="apple-touch-icon-precomposed" sizes="152x152" href="bear-152-23595.png">
 
-				<link rel="apple-touch-icon-precomposed" sizes="144x144" href="bear-144-23595.png">
+        <%= favicon_link_tag %>
+        <%= favicon_link_tag 'bear-152-23595.png', rel: 'apple-touch-icon-precomposed' %>
+				<%= favicon_link_tag 'bear-152-23595.png', rel: 'apple-touch-icon-precomposed', sizes: '152x152' %>
+				<%= favicon_link_tag 'bear-144-23595.png', rel: 'apple-touch-icon-precomposed', sizes: '144x144' %>
+				<%= favicon_link_tag 'bear-120-23595.png', rel: 'apple-touch-icon-precomposed', sizes: '120x120' %>
+				<%= favicon_link_tag 'bear-114-23595.png', rel: 'apple-touch-icon-precomposed', sizes: '114x114' %>
+				<%= favicon_link_tag 'bear-72-23595.png',  rel: 'apple-touch-icon-precomposed', sizes: '72x72' %>
+				<%= favicon_link_tag 'bear-57-23595.png',  rel: 'apple-touch-icon-precomposed', sizes: '57x57' %>
+        <%= favicon_link_tag 'bear-32-23595.png',  rel: 'apple-touch-icon-precomposed', sizes: '32x32' %>
 
-				<link rel="apple-touch-icon-precomposed" sizes="120x120" href="bear-120-23595.png">
+        <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+		    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 
-				<link rel="apple-touch-icon-precomposed" sizes="114x114" href="bear-114-23595.png">
-
-				<link rel="apple-touch-icon-precomposed" sizes="72x72" href="bear-72-23595.png">
-
-				<link rel="apple-touch-icon-precomposed" href="bear-57-23595.png">
-
-				<link rel="icon" href="bear-32-23595.png" sizes="32x32">
-		<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-		<%= csrf_meta_tags %>
+        <%= csrf_meta_tags %>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 				<meta name="msapplication-TileColor" content="#ffffff" />
