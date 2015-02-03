@@ -16,7 +16,7 @@
 
 		    <div class="collapse navbar-collapse" id="menu-collapse">
 		      <% if user_signed_in? %>
-					<ul class="nav navbar-nav">
+					<ul class="nav navbar-nav" id="menu">
 		        <li><%= link_to t('books'), :books %></li>
 						<li><%= link_to t('authors'), :authors  %></li>
 			  	</ul>
